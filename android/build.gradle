@@ -28,7 +28,7 @@ android {
     defaultConfig {
         minSdkVersion 16
         ndk {
-            // Explicitly specify all supported ABIs for proper 16KB page size support
+            // Include all supported architectures
             abiFilters 'armeabi-v7a', 'arm64-v8a', 'x86', 'x86_64'
         }
     }
