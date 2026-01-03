@@ -1,8 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     package="dev.isar.isar_flutter_libs">
-    <application android:extractNativeLibs="false"
-        android:supportsRtl="true">
+    <application android:extractNativeLibs="false">
         <property
             android:name="android.app.PROPERTY_SUPPORT_16KB_PAGE_SIZE"
             android:value="true" />
